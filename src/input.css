@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@theme {
+    --font-fredoka: "Fredoka One", ui-sans-serif, system-ui, sans-serif;
+    --font-quicksand: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+}
+
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('../assets/font/FredokaOne-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../assets/font/Quicksand-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../assets/font/Quicksand-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
